@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Papyrus";
+    src: url('src/styles/fonts/PAPYRUS.TTF') format("truetype");
+}
+
+.lib-container {
+    padding-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Papyrus";
+    font-size: 2.5vw;
+}
+h1 {
+    font-size: 2.5vw;
+}
+h2{
+    font-size: 1.5vw
+}
+.lib-container a{
+    cursor: pointer;
+}
+.wiki {
+    width: 45%;
+    margin-top: 0px;
+}
+.record {
+    width: 48.5%;
+    padding-right: 0.8vw;
+    margin-top: 3vw;
+}
+.album {
+    width: 45%;
+    margin-top: 3vw;
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wh-container{
+    padding-top: 50px;
+    background-color: rgb(9, 21, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.wish-container {
+    position: relative;
+    width: 80%;
+}
+
+.genie {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    width: 42%;
+    height: auto;
+    transition: "opacity 500ms"
+}
+.genietalk{
+    position: absolute;
+    top: 5%;
+    right: 34%;
+    width: 35%;
+}
+.type-container{
+    display: flex;
+    position: absolute;
+    gap: 1vw;
+    top: 40%;
+    left: 30%;
+    width: 46%;
+    justify-content: center;
+}
+.btn {
+    width: 20%;
+    height: 10%;
+    cursor: pointer;
+}
+.btn:hover {
+    filter: brightness(80%);
+}
+.submit-container {
+    display: flex;
+    flex-direction: column;  
+    position: absolute;
+    align-items: center; 
+    top:  53%;
+    left: 32.5%;
+    width: 41.5%;
+}
+
+.text-input {
+    color: #ffffff;
+    margin-right: 0.5vw;
+    height: 9vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 0.2vw solid #ffffff;
+    border-radius: 4px;
+    font-size: 2vw;
+    width: 93%;
+    resize: none;
+    font-family: 'ChosunGu';
+}
+.text-input:focus {
+    outline:none;
+}
+.text-input::placeholder {
+    color: #e0e0e0;
+}
+.sendbtn {
+    cursor: pointer;
+}
+.sendbtn:hover {
+    filter: brightness(80%);
+}
+.listbtn:hover {
+    filter: brightness(80%);
+}
+
+.wishlist-container {
+    display: flex;
+    flex-direction: column;  
+    position: absolute;
+    align-items: center; 
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wish-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wish-item {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-family: 'ChosunGu';
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #d60000;
+    border: 0.3vw solid rgb(0, 0, 0);
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 0.7vw;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.wish-item:hover {
+    background-color: #ffffff65;
+}
+
+.wish-item p {
+    margin: 1%;
+}
+.type-image{
+    width:6%;
+    margin:0.4%;
+    margin-left: 1%;
+}

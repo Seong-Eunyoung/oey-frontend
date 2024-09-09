@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'TTHakgyoansimKkokkomaR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.login-container {
+    background-color: rgb(102, 102, 102);
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'TTHakgyoansimKkokkomaR';
+    font-size: 2.5vw;
+}
+.login-image{
+    width: 30%;
+    margin-bottom: 3vw;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+.welcome {
+    
+    color:white;
+    margin: 0px;
+    margin-top: 0.3vw;
+}
+.password-container input{
+    font-family: 'TTHakgyoansimKkokkomaR';
+    color: rgb(102, 102, 102);
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.password-container input:focus {
+    outline:none;
+}

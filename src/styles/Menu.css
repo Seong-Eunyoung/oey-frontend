@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.menu-container {
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'ChosunGu';
+    font-size: 2.5vw;
+}
+p {
+    font-size: 2.5vw;
+}
+.menu-container a{
+    cursor: pointer;
+}
+.lib {
+    width: 45%;
+    margin-top: 0px;
+}
+.info{
+    width: 48.5%;
+    padding-right: 0.8vw;
+    margin-top: 3vw;
+}
+.wish {
+    width: 45%;
+    margin-top: 3vw;
+}
+.play{
+    width: 45%;
+    margin-top: 3vw;
+}
