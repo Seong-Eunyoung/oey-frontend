@@ -7,7 +7,7 @@ import People from "./pages/People";
 import Wish from 'src/pages/Wish';
 import Lib from 'src/pages/Lib';
 import WishList from 'src/pages/WishList';
-import EditorPage from 'src/components/EditorPage';
+// import EditorPage from 'src/components/EditorPage';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/people" element={<People />}></Route>
           <Route path="/wish" element={<Wish />}></Route>
           <Route path="/lib" element={<Lib />}></Route>
-          <Route path="/page" element={<EditorPage />}></Route>
+          {/* <Route path="/page" element={<EditorPage />}></Route> */}
           <Route path="/wishlist" element={<WishList />}></Route>
         </Routes>
       </BrowserRouter>
